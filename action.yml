@@ -1,0 +1,31 @@
+name: 'TerraCost Blast & FinOps'
+description: 'Air-Gapped Blast Radius & Monthly FinOps Cost Diff for Terraform Plans with Zero External Network Calls.'
+author: 'TopAI Sovereign Studio'
+branding:
+  icon: 'dollar-sign'
+  color: 'yellow'
+
+inputs:
+  plan_json:
+    description: 'Path to Terraform JSON plan file (generated via terraform show -json tfplan.binary)'
+    required: true
+  fail_on_critical:
+    description: 'Whether to fail CI if high-risk stateful destruction is detected'
+    required: false
+    default: 'true'
+  license_key:
+    description: 'Ed25519 commercial license key for unlimited enterprise plans'
+    required: false
+    default: ''
+
+outputs:
+  blast_score:
+    description: 'Blast radius risk score (0 to 100)'
+  monthly_delta_cost:
+    description: 'Estimated net monthly cloud cost change in USD'
+  should_block:
+    description: 'Whether deployment is considered unsafe'
+
+runs:
+  using: 'node20'
+  main: 'bin/cli.js'

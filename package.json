@@ -1,0 +1,40 @@
+{
+  "name": "@topaisaas/terracost-blast",
+  "version": "1.0.0",
+  "description": "Air-gapped Blast Radius & FinOps monthly delta cost calculator for Terraform JSON execution plans with zero network calls.",
+  "type": "module",
+  "main": "src/blast_analyzer.ts",
+  "bin": {
+    "terracost": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "action.yml",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test tests/terracost.test.js"
+  },
+  "keywords": [
+    "terraform",
+    "blast-radius",
+    "finops",
+    "cloud-cost",
+    "infracost-alternative",
+    "air-gapped",
+    "devops",
+    "iac",
+    "aws",
+    "gcp",
+    "azure",
+    "security"
+  ],
+  "author": "TopAI Sovereign Studio",
+  "license": "Apache-2.0"
+}
