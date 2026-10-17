@@ -96,7 +96,7 @@ npx @topaisaas/terracost-blast tfplan.json --markdown
 ## 🔐 Zero-Server Offline Ed25519 Licensing
 
 - **Community Free Tier**: Free forever for plans containing up to 20 resources.
-- **Pro / Enterprise Sovereign Tier**: Unlimited resources, air-gap compliance certificate, customized private cloud pricing tables ($49/mo or $149 Lifetime via [Polar.sh Checkout](https://polar.sh/checkout?product_id=3fb1980f-938c-453f-80b0-9235340dadcb)).
+- **Pro / Enterprise Sovereign Tier**: Unlimited resources, air-gap compliance certificate, customized private cloud pricing tables ($49/mo or $149 Lifetime via [Polar.sh Checkout](https://buy.polar.sh/polar_cl_bHsPkpJfvHmG9STDpIdNGVMLpSwVG6wHoQPTz3Fa7TY)).
 - **100% Offline Cryptographic Validation**: Validated via Ed25519 digital signature ($0.00 infrastructure cost, zero server dependencies).
 
 ```bash

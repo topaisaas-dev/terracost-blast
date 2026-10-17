@@ -50,7 +50,7 @@ try {
     metricName: 'resources',
     currentValue: summary.totalChanges,
     freeLimit: license.maxResources,
-    checkoutUrl: 'https://polar.sh/checkout?product_id=3fb1980f-938c-453f-80b0-9235340dadcb&ref=cli_inflow',
+    checkoutUrl: 'https://buy.polar.sh/polar_cl_bHsPkpJfvHmG9STDpIdNGVMLpSwVG6wHoQPTz3Fa7TY',
     priceText: '$49/month or $149 Lifetime'
   }, license.valid, hasEmergencyGrace);
 

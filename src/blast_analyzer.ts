@@ -128,7 +128,7 @@ export class BlastAnalyzer {
       md += '\n';
     }
 
-    md += `> 🔓 [**Unlock Unlimited Enterprise Cloud Plans & Custom Pricing Tables ($49/mo via Polar.sh)**](https://polar.sh/checkout?product_id=3fb1980f-938c-453f-80b0-9235340dadcb&ref=github_step_summary)\n`;
+    md += `> 🔓 [**Unlock Unlimited Enterprise Cloud Plans & Custom Pricing Tables ($49/mo via Polar.sh)**](https://buy.polar.sh/polar_cl_bHsPkpJfvHmG9STDpIdNGVMLpSwVG6wHoQPTz3Fa7TY)\n`;
 
     return md;
   }
