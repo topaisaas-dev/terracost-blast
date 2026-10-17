@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import { PlanParser } from '../src/plan_parser.ts';
 import { BlastAnalyzer } from '../src/blast_analyzer.ts';
 import { verifyOfflineLicenseKey } from '../src/license_verifier.ts';
-import { InflowPaywall } from '../../shared/inflow-paywall/src/inflow_paywall.ts';
+import { InflowPaywall } from '../src/inflow_paywall.ts';
 
 const args = process.argv.slice(2);
 
@@ -117,3 +117,4 @@ try {
   console.error('Error evaluating plan:', err.message);
   process.exit(1);
 }
+
