@@ -28,4 +28,4 @@ outputs:
 
 runs:
   using: 'node20'
-  main: 'bin/cli.js'
+  main: 'dist/cli.js'
