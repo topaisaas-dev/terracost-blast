@@ -1,9 +1,6 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { PlanParser } from '../src/plan_parser.ts';
-import { BlastAnalyzer } from '../src/blast_analyzer.ts';
-import { PricingCatalog } from '../src/pricing_catalog.ts';
-import { verifyOfflineLicenseKey } from '../src/license_verifier.ts';
+import { PlanParser, BlastAnalyzer, PricingCatalog, verifyOfflineLicenseKey } from '../dist/index.js';
 
 describe('TerraCost Blast Standalone Clean-Sheet Venture Test Suite', () => {
 
